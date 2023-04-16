@@ -21,7 +21,7 @@ class Stack {
   }
 
   pop() {
-    this.arr.pop();
+    return this.arr.pop();
   }
 
   peek() {
