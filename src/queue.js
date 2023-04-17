@@ -59,6 +59,7 @@ class Queue {
      }
      current.next = null;
      this.length--;
+     return nextNode;
     }
 }
 
